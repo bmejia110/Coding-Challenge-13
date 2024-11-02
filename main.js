@@ -16,7 +16,7 @@ fetch("https://www.course-api.com/javascript-store-products")
         const{ company, price } product.fields;
         const productName = product.fields.name;
         const productImage = product.fields.image[0].url;
-
+//Task 3: Dynamically display product  details
         const productDiv = document.createElement("div");
         productDiv.className = "product";
 
