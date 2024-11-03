@@ -40,6 +40,7 @@ fetch("https://www.course-api.com/javascript-store-products")
         productContainer.appendChild(productDiv);
     });
 })
+//Task 4: Handle errors gracefully
 .catch(error => {
     console.error("error fetching plz try again", error);
 });
